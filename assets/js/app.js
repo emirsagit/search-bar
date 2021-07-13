@@ -1,9 +1,14 @@
-const modal = document.getElementById("modal");
+let allNamesInDom = document.getElementsByClassName("name");
 
-document.getElementById("btn-open").addEventListener("click", function() {
-    modal.style.display = "block";
-});
+document.getElementById("searchInput").addEventListener("keyup", function (e) {
+  let searchQuery = e.target.value.toLowerCase();
 
-document.getElementById("btn-close").addEventListener("click", function() {
-    modal.style.display = "none";
+  for (let i = 0; i < allNamesInDom.length; i++) {
+    const currentName = allNamesInDom[i].textContent.toLowerCase();
+    if (!currentName.includes(searchQuery)) {
+      allNamesInDom[i].style.display = "none";
+    } else {
+      allNamesInDom[i].style.display = "block";
+    }
+  }
 });

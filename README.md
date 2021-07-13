@@ -1,6 +1,6 @@
-# Modal
+# Javascript Live Search
 
-> It's a search bar. It's running locally for searching in a JavaScript array. You can easily change its logic if you want to get data from an API.
+> It's a simple reusable search bar. In current logic, it's running for searching in an unordered list. You can easily change its logic if you want to live search on the current page for another element.
 
 ![screenshot](./app_screenshot.png)
 
@@ -12,8 +12,8 @@
 
 To get a local copy up and running follow these simple example steps.
 
-First you need to clone the repo. Then open index.html with your browser. Type anything in search input.
-
+First you need to clone the repo. Then open index.html with your browser. Type sth in the search input.
+    
 ## Authors
 
 👤 **Emir Sağıt**
