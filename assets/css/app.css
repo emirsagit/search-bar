@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 25px auto;
+}
+
+.modal-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+}
+
+.modal {
+  margin: auto;
+  max-width: 600px;
+  padding: 25px;
+  background: #fff;
+  top: 30%;
+  position: relative;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-danger {
+  background: red;
+  color: #fff;
+}
+
+.btn-primary {
+  background: blueviolet;
+  color: #fff;
+}
